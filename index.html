@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Modal</title>
+  </head>
+  <body class="container">
+    <header class="header">Modal</header>
+    <section class="mycontainer">
+      <div id="button-wrapper1" class="button-wrapper">
+        <button class="button">Modal1</button>
+      </div>
+      <div id="button-wrapper2" class="button-wrapper">
+        <button class="button">Modal2</button>
+      </div>
+      <div id="button-wrapper3" class="button-wrapper">
+        <button class="button">Modal3</button>
+      </div>
+      <!-- Modal -->
+      <div id="myModal" class="modalOverlay">
+        <div class="modal" tabindex="-1">
+          <div class="closeBtnWrapper">
+            <button class="close">&times;</button>
+          </div>
+          <div id="pseudo-modal-content"></div>
+          <div class="modal-content">
+            <button class="button">Button1</button>
+            <button class="button">Button2</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
